@@ -49,4 +49,4 @@ alldata<- bind_rows(bound_test_subset, bound_train_subset)
 #create tidy data set with averages
 tidyset<- aggregate(.~activity_id+subject+activity_label, alldata, FUN =  mean)
 # write it to a file
-write.table(tidyset, file = "./tidy_data.txt")
+write.table(tidyset, file = "./tidy_data.txt", row.names = FALSE)
