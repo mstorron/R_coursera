@@ -3,12 +3,19 @@ Abstract: Human Activity Recognition database built from the recordings of 30 su
 The text documents are:
 
 Activity_labels.txt : 6 obs of 2 variables ($V1: int (1-6); $V2: factor with 6 levels)
+
 Features.txt: 561 obs of 2 variables ($V1: int (1-561)): $V2: factor with 477 levels)
+
 subject_test.txt : 2947 obs. of  1 variable (int)
+
 subject_train.txt : 7352 obs. of  1 variable (int)
+
 X_test : 2947 obs. of  561 variables (num)
+
 y_test : 2947 obs. of  1 variable (int)
+
 X_train : 7352 obs. of  561 variables (num)
+
 y_train : 7352 obs of 1 variable (int)
 
 Based on the above dimensions and  presence or absence of column name, to build the required tidy data set, the following steps were taken:
