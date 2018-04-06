@@ -1,6 +1,6 @@
 Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-The text documents are:
+The assignment instructions are in the README.md file. The downloaded text documents are:
 
 Activity_labels.txt : 6 obs of 2 variables ($V1: int (1-6); $V2: factor with 6 levels)
 
