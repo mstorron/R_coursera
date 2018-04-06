@@ -14,12 +14,21 @@ y_train : 7352 obs of 1 variable (int)
 Based on the above dimensions and  presence or absence of column name, to build the required tidy data set, the following steps were taken:
 
 read above files into separate dataframes
+
 assign column 2 of features as column names for X_train and X_test
+
 assign colnames to subject_test and subject_train
+
 add extra column with activity labels($V2) to y_test and y_train
+
 assign descriptive colnames to y_test and y_train ('activity label' and 'activity id')
+
 bind data: 1) subject_test, y_test and X_test, and 2) subject_train, y_train and X_train
+
 subset rows in test and train dfs with mean or std plus subject and activity label column
+
 merge test and train data
+
 create tidy data set with averages aggregated on subject and activity
+
 write tidy data set to a file
